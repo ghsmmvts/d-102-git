@@ -16,3 +16,10 @@ nav a{
     font-size: 22pt;
     text-decoration: none;
 }
+
+header{
+    background-image: url("images/kagesn.jpg");
+    background-size: cover;
+    height: 400px;
+
+}
