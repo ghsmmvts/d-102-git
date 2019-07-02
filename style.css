@@ -30,7 +30,7 @@ section{
     justify-content: space-evenly;
 }
 
-div{
+section div{
     text-align: center;
     width: 40%;
 }
@@ -51,3 +51,20 @@ ul li:nth-child(even){
 /*p, h2{
     color: lawngreen;
 } */
+
+input::placeholder{
+    font-family: 'VT323', monospace;
+}
+
+input:focus{
+    background-color: #e98251;
+    height: 20px;
+    width: 150px;
+}
+
+footer div{
+    align-items: center;
+    background-color: aqua; 
+    display: flex;
+    justify-content: center;
+}
