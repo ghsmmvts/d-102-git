@@ -62,9 +62,23 @@ input:focus{
     width: 150px;
 }
 
-footer div{
-    align-items: center;
-    background-color: aqua; 
+footer div:nth-child(1){
+    align-items: center; 
     display: flex;
+    justify-content: center;
+}
+
+footer div:nth-child(2){
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+footer{
+    align-items: center;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
     justify-content: center;
 }
